@@ -1,0 +1,127 @@
+body{
+	background-color: #252525;
+	font-size: 14px;
+}
+:root{
+	color-negro:#282d33;
+	menu-hover:#ec3642;
+	color-rojo:#ec3642;
+	fondo-header:#212121;
+	fondo-footer:#212121;
+	color-footer:#ccc;
+}
+header{
+	background-color: var(--fondo-header);
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
+
+/* estilo del cta */
+#cta {
+    background-image: url('img/bg-parallax.png');
+    background-color: #CF3538;
+    padding: 100px 0; 
+    color: white;
+    text-align: left;
+}
+
+#cta div {
+    padding-left: 30px; 
+}
+
+#cta h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 30px; 
+}
+
+#cta p {
+    font-size: 20px;
+    margin-left: 30px; 
+}
+
+#cta button {
+    margin-left: 30px; 
+}
+
+/* estilo de products */
+#products {
+    padding: 50px 0; 
+}
+
+#products h5 {
+    color: white;
+    font-size: 15px;
+}
+
+#products p {
+    color: red;
+    font-size: 18px;
+}
+
+.card {
+    background-color: black;
+    margin-bottom: 30px; 
+}
+
+/* estilo de hero slides*/
+#primero {
+    color: white;
+    font-size: 95px;
+	text-align: left;
+}
+
+#s4s{
+    color: white;
+    font-size: 95px;
+	text-align: left;
+}
+
+#s5s{
+    background-color: red; 
+	 
+}
+
+#sas {
+    background-color: red; 
+	
+}
+
+/* estilo de intro*/
+#intro {
+    padding: 20px 0; 
+    text-align: left;
+}
+
+#intro article {
+    padding: 10px; 
+    margin-bottom: 20px; 
+}
+
+#intro h5 {
+    color: white; 
+    font-size: 12px; 
+}
+
+#intro h4 {
+    color: white; 
+    font-size: 20px; 
+}
+
+#intro p {
+    color: white; 
+    font-size: 10px; 
+}
+
+#intro1, #intro2, #intro3 {
+	background-color: #3E3E3E;
+	}
